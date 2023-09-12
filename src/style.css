@@ -1,0 +1,52 @@
+.wbsar-wrapper {
+    box-sizing: border-box;
+}
+
+.wbsar-wrapper p {
+    padding: 0;
+    margin-bottom: 6px;
+    color: #667085;
+}
+
+.wbsar-wrapper > div {
+    margin-bottom: 6px;
+}
+
+.wbsar-wrapper .wbsar-search-wrapper input,
+.wbsar-wrapper .wbsar-replace-wrapper input {
+    width: 100%;
+}
+
+.wbsar-wrapper .wbsar-search-wrapper label,
+.wbsar-wrapper .wbsar-replace-wrapper label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wbsar-wrapper .wbsar-search-wrapper label .count,
+.wbsar-wrapper .wbsar-replace-wrapper label .count {
+    display: none;
+}
+
+.wbsar-search-input-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.wbsar-search-input-wrapper input {
+    padding-right: 24px;
+}
+
+.wbsar-search-input-wrapper svg {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* for highlight */
+mark {
+    padding: 0 !important;
+    background-color: yellow !important;
+}
